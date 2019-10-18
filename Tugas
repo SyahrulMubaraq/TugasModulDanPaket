@@ -3,14 +3,14 @@ def main():
   r = 30
   t = 20
   
-  Volume = Tabung=volume(r, t)
+  Volume = Tabung.volume(r, t)
   
   print("Hitunglah Volume Tabung")
   print("Jari-jari = ", r)
   print("Tinggi    = ", t)
-  print(Volume     = ", Volume)
+  print("Volume     = ", Volume)
   
-  print(100*"=")
+  print(100*"-")
   
   luasSelimut = Tabung.luasSelimut(r, t)
   
@@ -19,7 +19,7 @@ def main():
   print("Tinggi       = ", t)
   print("Luas Selimut = ", luasSelimut)
   
-  print(100*"=")
+  print(100*"-")
   
   luasPermukaan = Tabung.luasPermukaan(r, t)
   
@@ -28,7 +28,7 @@ def main():
   print("Tinggi         = ", t)
   print("Luas Permukaan = ", luasPermukaan)
   
-  print(100*"=")
+  print(100*"-")
   
 if __name__ == "__main__":
   main()
