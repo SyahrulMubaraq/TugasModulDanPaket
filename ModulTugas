@@ -1,0 +1,10 @@
+import math
+
+def luasPermukaan(r, t):
+  return 2 * math.pi * r * (r + t)
+  
+def luasSelimut(r, t):
+  return 2 * math.pi * r * t
+  
+def volume(r, t):
+  return math.pi * r * r * t
